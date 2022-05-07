@@ -1,0 +1,34 @@
+.img1 {
+    position:absolute;
+    left: 30px;
+    top: 300px;
+}
+
+.img2 {
+    position:absolute;
+    left: 570px;
+    top: 300px;
+}
+
+.img3 {
+    position:absolute;
+    left: 820px;
+    top: 355px;
+}
+
+.img4 {
+    position:absolute;
+    left: 1070px;
+    top: 300px;
+}
+
+
+
+
+
+
+body {
+    max-width: 1600px;
+    max-height: 880px;
+}
+

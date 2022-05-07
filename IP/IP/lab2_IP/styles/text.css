@@ -1,0 +1,1392 @@
+a {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+
+
+
+
+/*@media (min-width: 268px) and (max-width: 6400px) {
+    p {
+        font-size: calc(18px + (18 - 14) * ( (150vw - 480px) / ( 1024 - 480) ));
+    }
+    .FIO {
+        width: calc(18px + (18 - 14) * ( (150vw - 480px) / ( 1024 - 480) ));
+        height: calc(14px + (18 - 14) * ( (100vw - 480px) / ( 1024 - 480) ));
+        line-height: calc(14px + (18 - 14) * ( (100vw - 480px) / ( 1024 - 480) ));
+    }
+
+    h {
+        font-size: calc(18px + (18 - 14) * ( (100vw - 480px) / ( 1024 - 480) ));
+    }
+}
+*/
+
+
+
+@media (max-width: 1080px) {
+
+    .centerTextHeader {
+        position: absolute;
+        font-size: 6vw;
+
+        top: 45vw;
+        left: 37vw;
+    }
+
+    input {
+        font-size: 4vw;
+    }
+
+    .form_reg {
+        position: absolute;
+        font-size: 4vw;
+
+        top: 60vw;
+        left: 10vw;
+    }
+
+    .Login {
+        position: absolute;
+        font-size: 6vw;
+
+        top: 45vw;
+        left: 40vw;
+    }
+
+    .profilePhoto {
+        position: absolute;
+        top: 2vw;
+        left: 61vw;
+
+        width: 10vw;
+        height: 10vw;
+    }
+
+    .edit_form {
+        position: absolute;
+        font-size: 2.3vw;
+
+        top: 60vw;
+        left: 0vw;
+
+        border-collapse: collapse;
+        border: 1px solid white;
+    }
+    .edit_form td {
+        border-collapse: collapse;
+        border: 1px solid lightgray;
+    }
+
+    .error {
+        position: absolute;
+        font-size: 5vw;
+
+        top: 19vw;
+        left: 45vw;
+    }
+
+
+    td {
+        font-size: 2.5vw;
+    }
+
+    .icons {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .avatarimg {
+        width: 7vw;
+        height: 7vw;
+        margin: 1vw;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .interface {
+        position: absolute;
+        width: 100vw;
+        height: 35vw;
+
+        top: 1vw;
+        left: 1vw;
+    }
+
+    .interface .FIO {
+        width: 60vw;
+        font-size: 4.5vw;
+        white-space: nowrap;
+        position: relative;
+        text-align: center;
+        font-family: "Comic Sans MS", sans-serif;
+    }
+    .interface .Group {
+        width: 60vw;
+        font-size: 4.5vw;
+        white-space: nowrap;
+        position: relative;
+        text-align: center;
+        font-family: "Comic Sans MS", sans-serif;
+
+    }
+
+    .interface .Phone {
+        font-size: 4.5vw;
+        width: 34vw;
+        left: 65.5vw;
+        bottom: 12.5vw;
+        height: 5vw;
+
+        white-space: nowrap;
+        position: relative;
+        text-align: center;
+        font-family: "Comic Sans MS", sans-serif;
+
+    }
+
+    .interface .Number {
+        font-size: 4.3vw;
+        width: 10vw;
+        left: 78vw;
+        bottom: 11.5vw;
+
+        white-space: nowrap;
+        position: relative;
+        text-align: center;
+        font-family: "Comic Sans MS", sans-serif;
+
+    }
+
+
+    .interface .MyWorks {
+        width: auto;
+        font-size: 5vw;
+        white-space: nowrap;
+        position: absolute;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        left: 1vw;
+        bottom: 10vw;
+    }
+
+    .interface .Achievements {
+        width: auto;
+        font-size: 5vw;
+        white-space: nowrap;
+        position: absolute;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        left: 33vw;
+        bottom: 10vw;
+    }
+
+    .interface .AboutMe {
+        width: auto;
+        font-size: 5vw;
+        white-space: nowrap;
+        position: absolute;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        left: 75vw;
+        bottom: 10vw;
+    }
+
+    .interface .FAQ {
+        width: auto;
+        font-size: 5vw;
+        white-space: nowrap;
+        position: absolute;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        left: 22vw;
+        bottom: 0vw;
+    }
+
+    .interface .MyContacts {
+        width: auto;
+        font-size: 5vw;
+        white-space: nowrap;
+        position: absolute;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        left: 60vw;
+        bottom: 0vw;
+    }
+
+
+
+
+
+
+
+
+    .MyWorksDiv {
+        position:absolute;
+        top: 36vw;
+        left: 0vw;
+
+        width: 100vw;
+        height: 80vw;
+    }
+
+    .Gallery {
+        height: 60vw;
+    }
+
+    .left {
+        position:absolute;
+        left: 5vw;
+        top: 43vw;
+
+        width: 15vw;
+        height: 10vw;
+    }
+
+    .right {
+        position:absolute;
+        left: 80vw;
+        top: 43vw;
+
+        width: 15vw;
+        height: 10vw;
+    }
+
+    #MainImage {
+        position:absolute;
+        left: 25vw;
+        top: 35vw;
+
+        width: 50vw;
+        height: 25vw;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .elementImage {
+        width: 50vw;
+        height: 25vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+
+    }
+
+
+
+
+    .text1MyWorks {
+        font-size: 3.2vw;
+        width: 80vw;
+        height: 11vw;
+        left: 10vw;
+        top: 10vw;
+
+
+        text-align:center;
+        position: relative;
+        font-family: Arial, sans-serif;
+    }
+
+    .text2MyWorks {
+        font-size: 3.2vw;
+        width: 80vw;
+        height: 4vw;
+        left: 10vw;
+        top: 12vw;
+
+
+        text-align:center;
+        position: relative;
+        font-family: Arial, sans-serif;
+    }
+
+    .text3MyWorks {
+        font-size: 3.2vw;
+        width: 80vw;
+        height: 10vw;
+        left: 10vw;
+        top: 55vw;
+
+
+        text-align:center;
+        position: relative;
+        font-family: Arial, sans-serif;
+    }
+
+
+
+
+    .textAchievements {
+        position: absolute;
+        height: 55vw;
+        width: 80vw;
+
+        top: 130vw;
+        left: 10vw;
+    }
+
+    .text1Achievements {
+        height: 15vw;
+
+        text-align:center;
+        font-size: 3.2vw;
+        position: relative;
+        font-family: Arial, sans-serif;
+
+    }
+
+    .text2Achievements {
+        height: 15vw;
+
+        text-align:center;
+        font-size: 3.2vw;
+        position: relative;
+        font-family: Arial, sans-serif;
+    }
+
+    .text3Achievements {
+        height: 25vw;
+
+        text-align:center;
+        font-size: 3.2vw;
+        position: relative;
+        font-family: Arial, sans-serif;
+    }
+
+    .img5 {
+        position:absolute;
+        left: 20vw;
+        top: 45vw;
+        width: 58vw;
+        height: 76vw;
+    }
+
+
+
+    .textAboutMe {
+        position: absolute;
+        height: 55vw;
+        width: 80vw;
+
+        top: 130vw;
+        left: 10vw;
+    }
+
+    .text1AboutMe {
+        height: 18vw;
+
+        text-align:center;
+        font-size: 3.2vw;
+        position: relative;
+        font-family: Arial, sans-serif;
+    }
+
+    .text2AboutMe {
+        height: 15vw;
+
+        text-align:center;
+        font-size: 3.2vw;
+        position: relative;
+        font-family: Arial, sans-serif;
+    }
+
+    .text3AboutMe {
+        height: 15vw;
+
+        text-align:center;
+        font-size: 3.2vw;
+        position: relative;
+        font-family: Arial, sans-serif;
+    }
+
+    .text4AboutMe {
+        height: 5vw;
+
+        text-align:center;
+        font-size: 3.2vw;
+        position: relative;
+        font-family: Arial, sans-serif;
+    }
+
+    .img6 {
+        position:absolute;
+        left: 20vw;
+        top: 45vw;
+
+        width: 58vw;
+        height: 76vw;
+    }
+
+
+
+
+
+
+
+
+
+
+    .textFAQ {
+        position: absolute;
+        height: 134vw;
+        width: 85vw;
+
+        top: 50vw;
+        left: 5vw;
+    }
+
+
+    .text1FAQ {
+        height: 4vw;
+        width: 80vw;
+        text-align:center;
+        font-size: 3.2vw;
+        position: relative;
+
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        color: #cc2121;
+        padding-bottom: 0.5vw;
+        line-height: 4vw;
+        background-color: rgba(0, 0, 0, 0.45);
+        border-radius: 2vw 2vw;
+    }
+
+    .text2FAQ {
+        height: 15vw;
+        width: 80vw;
+        text-align:center;
+        font-size: 3.2vw;
+        position: relative;
+        top: 3vw;
+
+        font-family: Arial, sans-serif;
+        background-color: rgba(0, 0, 0, 0.45);
+        border-radius: 3vw 3vw;
+    }
+
+    .text3FAQ {
+        height: 4vw;
+        width: 70vw;
+        text-align:center;
+        font-size: 3.2vw;
+        position: relative;
+        left: 15vw;
+        top: 10vw;
+
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        color: #c4c928;
+        padding-bottom: 0.5vw;
+        line-height: 4vw;
+        background-color: rgba(0, 0, 0, 0.45);
+        border-radius: 2vw 2vw;
+    }
+
+    .text4FAQ {
+        height: 22.5vw;
+        width: 80vw;
+        text-align:center;
+        font-size: 3.2vw;
+        position: relative;
+        left: 10vw;
+        top: 13vw;
+
+        font-family: Arial, sans-serif;
+        background-color: rgba(0, 0, 0, 0.45);
+        border-radius: 3vw 3vw;
+    }
+
+    .text5FAQ {
+        height: 4vw;
+        width: 65vw;
+        text-align:center;
+        font-size: 3.2vw;
+        position: relative;
+        left: 8vw;
+        top: 20vw;
+
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        color: #389b07;
+        padding-bottom: 0.5vw;
+        line-height: 4vw;
+        background-color: rgba(0, 0, 0, 0.45);
+        border-radius: 2vw 2vw;
+    }
+
+    .text6FAQ {
+        height: 19vw;
+        width: 80vw;
+        text-align:center;
+        font-size: 3.2vw;
+        position: relative;
+        left: 0vw;
+        top: 23vw;
+
+
+        font-family: Arial, sans-serif;
+        background-color: rgba(0, 0, 0, 0.45);
+        border-radius: 3vw 3vw;
+    }
+
+
+
+    .VK {
+        position:absolute;
+        left: 15vw;
+        top: 55vw;
+
+        width: 50vw;
+        height: 15vw;
+    }
+
+    .VK .imgVK {
+        width: 15vw;
+        height: 15vw;
+    }
+
+    .VK .textVK {
+        position: absolute;
+
+        text-align:center;
+        font-size: 5vw;
+        top: 4vw;
+        left: 20vw;
+    }
+
+
+
+    .INST {
+        position:absolute;
+        left: 45vw;
+        top: 85vw;
+
+        width: 50vw;
+        height: 15vw;
+    }
+
+    .INST .imgINST {
+        width: 15vw;
+        height: 15vw;
+    }
+
+    .INST .textINST {
+        position: absolute;
+
+        text-align:center;
+        font-size: 5vw;
+        top: 4vw;
+        left: 20vw;
+    }
+
+
+    .TELEGRAM {
+        position:absolute;
+        left: 15vw;
+        top: 115vw;
+
+        width: 50vw;
+        height: 15vw;
+    }
+
+    .TELEGRAM .imgTELEGRAM {
+        width: 16vw;
+        height: 16vw;
+    }
+
+    .TELEGRAM .textTELEGRAM {
+        position: absolute;
+
+        text-align:center;
+        font-size: 5vw;
+        top: 4vw;
+        left: 20vw;
+    }
+
+
+    .STEAM   {
+        position:absolute;
+        left: 45vw;
+        top: 145vw;
+
+        width: 50vw;
+        height: 15vw;
+    }
+
+    .STEAM .imgSTEAM {
+        width: 16vw;
+        height: 16vw;
+    }
+
+    .STEAM .textSTEAM {
+        position: absolute;
+
+        text-align:center;
+        font-size: 5vw;
+        top: 4vw;
+        left: 20vw;
+    }
+
+
+    .GITHUB   {
+        position:absolute;
+        left: 15vw;
+        top: 175vw;
+
+        width: 50vw;
+        height: 15vw;
+    }
+
+    .GITHUB .imgGITHUB {
+        width: 15vw;
+        height: 15vw;
+    }
+
+    .GITHUB .textGITHUB {
+        position: absolute;
+
+        text-align:center;
+        font-size: 5vw;
+        top: 4vw;
+        left: 20vw;
+    }
+
+
+    .img0 {
+        position:absolute;
+        top: 200vw;
+        opacity: 0;
+        width: 2vw;
+        height: 1vw;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1080px) and (max-width: 9999px) {
+
+    .centerTextHeader {
+        position: absolute;
+        font-size: 2.3vw;
+
+        top: 14vw;
+        left: 45vw;
+    }
+
+    input {
+        font-size: 1.5vw;
+    }
+
+    .form_reg {
+        position: absolute;
+        font-size: 2.3vw;
+
+        top: 19vw;
+        left: 10vw;
+    }
+
+    .edit_form {
+        position: absolute;
+        font-size: 2.3vw;
+
+        top: 19vw;
+        left: 3vw;
+
+        border-collapse: collapse;
+        border: 1px solid white;
+    }
+    .edit_form td {
+        border-collapse: collapse;
+        border: 1px solid lightgray;
+    }
+
+    .error {
+        position: absolute;
+        font-size: 2.0vw;
+
+        top: 19vw;
+        left: 45vw;
+    }
+
+
+    td {
+        font-size: 1.9vw;
+    }
+
+    .icons {
+        width: 3vw;
+        height: 3vw;
+    }
+
+    .avatarimg {
+        width: 7vw;
+        height: 7vw;
+        margin: 1vw;
+    }
+
+    .profilePhoto {
+        position: absolute;
+        top: 0vw;
+        left: 78vw;
+
+        width: 7vw;
+        height: 7vw;
+    }
+
+    .Game {
+        position: absolute;
+        top: 75vw;
+        left: 18vw;
+    }
+
+    .BlocksGame {
+        flex-wrap: wrap;
+        width: 64vw;
+        height: 55vw;
+    }
+
+    [id^="ImageGame-"] {
+        margin: 0.1vw;
+        width: 10vw;
+        height: 10vw;
+    }
+
+    #steps {
+        position: absolute;
+        font-size: 4vw;
+        top: 120vw;
+        left: 18vw;
+        height: 10vw;
+        width: 70vw;
+    }
+
+    #output {
+        position: absolute;
+        font-size: 4vw;
+        top: 130vw;
+        left: 18vw;
+        height: 10vw;
+        width: 30vw;
+    }
+    #output2 {
+        position: absolute;
+        font-size: 4vw;
+        top: 150vw;
+        left: 18vw;
+        height: 10vw;
+        width: 30vw;
+    }
+
+
+
+
+
+
+
+    .interface {
+        position: absolute;
+        width: 100vw;
+        height: 10vw;
+
+        top: 1vw;
+        left: 1vw;
+    }
+
+
+    .interface .FIO {
+        width: 34vw;
+        font-size: 2.1vw;
+        white-space: nowrap;
+        position: relative;
+        text-align: center;
+        font-family: "Comic Sans MS", sans-serif;
+        right: 4.5vw;
+        bottom: 0.5vw;
+    }
+
+    .interface .Group {
+        width: 34vw;
+        font-size: 2.2vw;
+        white-space: nowrap;
+        position: relative;
+        text-align: center;
+        font-family: "Comic Sans MS", sans-serif;
+        right: 4.5vw;
+        bottom: 0vw;
+    }
+
+    .interface .MyWorks {
+        width: auto;
+        font-size: 2vw;
+        white-space: nowrap;
+        position: absolute;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        left: 24vw;
+    }
+
+    .interface .Achievements {
+        width: auto;
+        font-size: 2vw;
+        white-space: nowrap;
+        position: absolute;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        left: 35vw;
+    }
+
+    .interface .AboutMe {
+        width: auto;
+        font-size: 2vw;
+        white-space: nowrap;
+        position: absolute;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        left: 50vw;
+    }
+
+    .interface .FAQ {
+        width: auto;
+        font-size: 2vw;
+        white-space: nowrap;
+        position: absolute;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        left: 61vw;
+    }
+
+    .interface .MyContacts {
+        width: auto;
+        font-size: 2vw;
+        white-space: nowrap;
+        position: absolute;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        left: 67vw;
+    }
+
+    .interface .Phone {
+        font-size: 1.7vw;
+        width: 10vw;
+        left: 86vw;
+        bottom: 6vw;
+
+        white-space: nowrap;
+        position: relative;
+        text-align: center;
+        font-family: Arial, sans-serif;
+
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    .interface .Number {
+        font-size: 1.7vw;
+        width: 10vw;
+        left: 86vw;
+        bottom: 4.8vw;
+
+        white-space: nowrap;
+        position: relative;
+        text-align: center;
+        font-family: Arial, sans-serif;
+
+        font-weight: bold;
+        font-style: italic;
+    }
+
+
+
+
+    .MyWorksDiv {
+        position:absolute;
+        top: 11vw;
+        left: 0vw;
+
+        width: 100vw;
+        height: 60vw;
+    }
+
+    .Gallery {
+        height: 50vw;
+    }
+
+    .left {
+        position:absolute;
+        left: 10vw;
+        top: 22vw;
+
+        width: 10vw;
+        height: 7vw;
+    }
+
+    .right {
+        position:absolute;
+        left: 80vw;
+        top: 22vw;
+
+        width: 10vw;
+        height: 7vw;
+    }
+
+    #MainImage {
+        position:absolute;
+        left: 25vw;
+        top: 13vw;
+
+        width: 50vw;
+        height: 25vw;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .elementImage {
+        width: 50vw;
+        height: 25vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+
+    }
+
+
+
+
+
+
+
+
+
+
+    .text1MyWorks {
+        font-size: 1.6vw;
+        width: 70vw;
+        height: 4vw;
+        left: 15vw;
+        top: 2vw;
+
+
+        text-align:center;
+        position: relative;
+        font-family: Arial, sans-serif;
+    }
+
+    .text2MyWorks {
+        font-size: 1.6vw;
+        width: 70vw;
+        height: 2vw;
+        left: 15vw;
+        top: 2.5vw;
+
+
+        text-align:center;
+        position: relative;
+        font-family: Arial, sans-serif;
+    }
+
+    .text3MyWorks {
+        font-size: 1.6vw;
+        width: 70vw;
+        height: 2vw;
+        left: 15vw;
+        top: 38vw;
+
+
+        text-align:center;
+        position: relative;
+        font-family: Arial, sans-serif;
+    }
+
+
+
+
+
+    .textAchievements {
+        position: absolute;
+        height: 20vw;
+        width: 45vw;
+
+        top: 20vw;
+        left: 10vw;
+    }
+
+    .text1Achievements {
+        height: 5vw;
+
+        text-align:center;
+        font-size: 1.6vw;
+        position: relative;
+        font-family: Arial, sans-serif;
+    }
+
+    .text2Achievements {
+        height: 7vw;
+
+        text-align:center;
+        font-size: 1.6vw;
+        position: relative;
+        font-family: Arial, sans-serif;
+    }
+
+    .text3Achievements {
+        height: 10vw;
+
+        text-align:center;
+        font-size: 1.6vw;
+        position: relative;
+        font-family: Arial, sans-serif;
+    }
+
+    .img5 {
+        position:absolute;
+        left: 62vw;
+        top: 13vw;
+
+        width: 29vw;
+        height: 38vw;
+    }
+
+
+
+    .textAboutMe {
+        position: absolute;
+        height: 20vw;
+        width: 45vw;
+
+        top: 19vw;
+        left: 10vw;
+    }
+
+    .text1AboutMe {
+
+        height: 9vw;
+
+        text-align:center;
+        font-size: 1.6vw;
+        position: relative;
+        font-family: Arial, sans-serif;
+    }
+
+    .text2AboutMe {
+        height: 7vw;
+
+        text-align:center;
+        font-size: 1.6vw;
+        position: relative;
+        font-family: Arial, sans-serif;
+    }
+
+    .text3AboutMe {
+        height: 7vw;
+
+        text-align:center;
+        font-size: 1.6vw;
+        position: relative;
+        font-family: Arial, sans-serif;
+    }
+
+    .text4AboutMe {
+        height: 5vw;
+
+        text-align:center;
+        font-size: 1.6vw;
+        position: relative;
+        font-family: Arial, sans-serif;
+    }
+
+    .img6 {
+        position:absolute;
+        left: 62vw;
+        top: 13vw;
+
+        width: 29vw;
+        height: 38vw;
+    }
+
+
+
+
+
+
+
+
+    .textFAQ {
+        position: absolute;
+        height: 40vw;
+        width: 80vw;
+
+        top: 15vw;
+        left: 10vw;
+    }
+
+    .text1FAQ {
+        height: 2.5vw;
+        width: 36vw;
+        text-align:center;
+        font-size: 1.5vw;
+        position: relative;
+        left: 2vw;
+        top: 0vw;
+
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        color: #cc2121;
+        padding-bottom: 0.7vw;
+        line-height: 3vw;
+        background-color: rgba(0, 0, 0, 0.45);
+        border-radius: 2vw 2vw;
+    }
+
+    .text2FAQ {
+        height: 7.2vw;
+        width: 40vw;
+        text-align:center;
+        font-size: 1.5vw;
+        position: relative;
+        left: 0vw;
+        top: 1vw;
+
+        font-family: Arial, sans-serif;
+        background-color: rgba(0, 0, 0, 0.45);
+        border-radius: 3vw 3vw;
+    }
+
+    .text3FAQ {
+        height: 2.5vw;
+        width: 32vw;
+        text-align:center;
+        font-size: 1.5vw;
+        position: relative;
+        left: 44vw;
+        top: 3vw;
+
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        color: #c4c928;
+        padding-bottom: 0.7vw;
+        line-height: 3vw;
+        background-color: rgba(0, 0, 0, 0.45);
+        border-radius: 2vw 2vw;
+    }
+
+    .text4FAQ {
+        height: 9vw;
+        width: 40vw;
+        text-align:center;
+        font-size: 1.5vw;
+        position: relative;
+        left: 40vw;
+        top: 4vw;
+
+        font-family: Arial, sans-serif;
+        background-color: rgba(0, 0, 0, 0.45);
+        border-radius: 3vw 3vw;
+    }
+
+    .text5FAQ {
+        height: 2.5vw;
+        width: 31vw;
+        text-align:center;
+        font-size: 1.5vw;
+        position: relative;
+        left: 4.5vw;
+        top: 5vw;
+
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        color: #389b07;
+        padding-bottom: 0.7vw;
+        line-height: 3vw;
+        background-color: rgba(0, 0, 0, 0.45);
+        border-radius: 2vw 2vw;
+    }
+
+    .text6FAQ {
+        height: 7.2vw;
+        width: 40vw;
+        text-align:center;
+        font-size: 1.5vw;
+        position: relative;
+        left: 0vw;
+        top: 6vw;
+
+
+        font-family: Arial, sans-serif;
+        background-color: rgba(0, 0, 0, 0.45);
+        border-radius: 3vw 3vw;
+    }
+
+
+
+    .VK {
+        position:absolute;
+        left: 5vw;
+        top: 18vw;
+
+        width: 22vw;
+        height: 9vw;
+    }
+
+    .VK .imgVK {
+        width: 7vw;
+        height: 7vw;
+    }
+
+    .VK .textVK {
+        position: absolute;
+
+        text-align:center;
+        font-size: 2vw;
+        top: 2.5vw;
+        left: 9vw;
+    }
+
+
+
+    .INST {
+        position:absolute;
+        left: 42vw;
+        top: 18vw;
+
+        width: 22vw;
+        height: 9vw;
+    }
+
+    .INST .imgINST {
+        width: 7vw;
+        height: 7vw;
+    }
+
+    .INST .textINST {
+        position: absolute;
+
+        text-align:center;
+        font-size: 2vw;
+        top: 2.5vw;
+        left: 9vw;
+    }
+
+
+    .TELEGRAM {
+        position:absolute;
+        left: 75vw;
+        top: 18vw;
+
+        width: 22vw;
+        height: 9vw;
+    }
+
+    .TELEGRAM .imgTELEGRAM {
+        width: 7vw;
+        height: 7vw;
+    }
+
+    .TELEGRAM .textTELEGRAM {
+        position: absolute;
+
+        text-align:center;
+        font-size: 2vw;
+        top: 2.5vw;
+        left: 9vw;
+    }
+
+
+
+    .STEAM   {
+        position:absolute;
+        left: 25vw;
+        top: 33vw;
+
+        width: 22vw;
+        height: 9vw;
+    }
+
+    .STEAM .imgSTEAM {
+        width: 7vw;
+        height: 7vw;
+    }
+
+    .STEAM .textSTEAM {
+        position: absolute;
+
+        text-align:center;
+        font-size: 2vw;
+        top: 2.5vw;
+        left: 9vw;
+    }
+
+
+
+    .GITHUB   {
+        position:absolute;
+        left: 59vw;
+        top: 33vw;
+
+        width: 22vw;
+        height: 9vw;
+    }
+
+    .GITHUB .imgGITHUB {
+        width: 7vw;
+        height: 7vw;
+    }
+
+    .GITHUB .textGITHUB {
+        position: absolute;
+
+        text-align:center;
+        font-size: 2vw;
+        top: 2.5vw;
+        left: 9vw;
+    }
+
+
+    .img0 {
+        position:absolute;
+        top: 60vw;
+        opacity: 0;
+    }
+}
